@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=DESKTOP-AMH93RJ;Database=Inwent;Trusted_Connection=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer --data-annotations --no-pluralize -o Models -c InwentContext --force
